@@ -2,6 +2,7 @@
   "extends": [
     "config:base"
   ],
+  "enabledManagers": ["npm"],
   "automerge": false,
   "timezone": "America/New_York",
   "lockFileMaintenance": {
@@ -16,14 +17,14 @@
   ],
   "packageRules": [
     {
-      "packagePatterns": ["*"],
-      "enabled": false
-    },
-    {
       "packageNames": ["debug"],
       "enabled": true,
       "updateTypes": ["major", "minor", "patch"],
       "rangeStrategy": "bump"
+    },
+    {
+      "packagePatterns": ["*"],
+      "enabled": false
     }
   ]
 }
