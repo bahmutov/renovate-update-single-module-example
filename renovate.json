@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "automerge": false,
+  "timezone": "America/New_York",
+  "lockFileMaintenance": {
+    "enabled": true
+  },
+  "separatePatchReleases": true,
+  "separateMultipleMajor": true,
+  "masterIssue": true,
+  "labels": [
+    "type: dependencies",
+    "renovate"
+  ],
+  "packageRules": [
+		{
+			"packagePatterns": ["*"],
+			"enabled": false
+		},
+		{
+			"packageNames": ["debug"],
+			"enabled": true,
+			"updateTypes": ["minor", "patch"]
+		}
+	]
+}
