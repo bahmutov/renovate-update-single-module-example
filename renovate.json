@@ -15,14 +15,14 @@
     "renovate"
   ],
   "packageRules": [
-		{
-			"packagePatterns": ["*"],
-			"enabled": false
-		},
-		{
-			"packageNames": ["debug"],
-			"enabled": true,
-			"updateTypes": ["minor", "patch"]
-		}
-	]
+    {
+      "packagePatterns": ["*"],
+      "enabled": false
+    },
+    {
+      "packageNames": ["debug"],
+      "enabled": true,
+      "updateTypes": ["minor", "patch"]
+    }
+  ]
 }
