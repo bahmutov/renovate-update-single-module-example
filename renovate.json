@@ -22,7 +22,8 @@
     {
       "packageNames": ["debug"],
       "enabled": true,
-      "updateTypes": ["minor", "patch"]
+      "updateTypes": ["major", "minor", "patch"],
+      "rangeStrategy": "bump"
     }
   ]
 }
