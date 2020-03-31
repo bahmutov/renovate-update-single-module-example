@@ -17,13 +17,8 @@
   ],
   "packageRules": [
     {
-      "packageNames": ["debug"],
-      "enabled": true,
-      "updateTypes": ["major", "minor", "patch"],
-      "rangeStrategy": "bump"
-    },
-    {
       "packagePatterns": ["*"],
+      "excludePackagePatterns": ["debug"],
       "enabled": false
     }
   ]

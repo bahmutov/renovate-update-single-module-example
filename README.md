@@ -5,6 +5,8 @@
 
 The [renovate.json](renovate.json) only allows checking updates for dependency `debug`, all other dependencies (like `chalk`) should be ignored. The configuration follows advice given in [this issue](https://github.com/renovatebot/config-help/issues/210)
 
+Renovate Bot documentation at [https://docs.renovatebot.com/](https://docs.renovatebot.com/)
+
 [Renovate Dashboard](https://app.renovatebot.com/dashboard)
 
 [renovate-badge]: https://img.shields.io/badge/renovate-app-blue.svg
