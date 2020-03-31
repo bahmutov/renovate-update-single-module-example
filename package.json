@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Example repository where only a single dependency is updated using Renovate Bot",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "test": "node ."
   },
