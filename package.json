@@ -20,6 +20,6 @@
   "homepage": "https://github.com/bahmutov/renovate-update-single-module-example#readme",
   "dependencies": {
     "chalk": "1.0.0",
-    "debug": "4.1.1"
+    "debug": "4.3.4"
   }
 }
