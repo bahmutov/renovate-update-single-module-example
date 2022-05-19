@@ -19,7 +19,7 @@
   "packageRules": [
     {
       "packagePatterns": ["*"],
-      "matchPackagePatterns": ["^deb"],
+      "excludePackagePatterns": ["^(?!.*debug).*$"],
       "enabled": false
     }
   ]
