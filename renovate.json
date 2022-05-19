@@ -19,8 +19,12 @@
   "packageRules": [
     {
       "packagePatterns": ["*"],
-      "excludePackagePatterns": ["^(?!.*debug).*$"],
+      "excludePackagePatterns": ["debug"],
       "enabled": false
+    },
+    {
+      "packagePatterns": ["^ch"],
+      "enabled": true
     }
   ]
 }
