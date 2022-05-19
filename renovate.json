@@ -23,7 +23,7 @@
       "enabled": false
     },
     {
-      "packagePatterns": ["^react-native"],
+      "packagePatterns": ["^f", "^night"],
       "enabled": true
     }
   ]
