@@ -17,9 +17,7 @@
   ],
   "packageRules": [
     {
-      "packagePatterns": ["*"],
       "excludePackagePatterns": ["debug"],
-      "enabled": false
     }
   ]
 }
