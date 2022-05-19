@@ -23,7 +23,7 @@
       "enabled": false
     },
     {
-      "packagePatterns": ["^ch"],
+      "packagePatterns": ["^react-native"],
       "enabled": true
     }
   ]
