@@ -4,6 +4,7 @@
   ],
   "enabledManagers": ["npm"],
   "automerge": false,
+  "schedule": ["at any time"],
   "timezone": "America/New_York",
   "lockFileMaintenance": {
     "enabled": true
@@ -17,7 +18,9 @@
   ],
   "packageRules": [
     {
-      "matchPackagePatterns": ["debug"],
+      "packagePatterns": ["*"],
+      "matchPackagePatterns": ["^deb"],
+      "enabled": false
     }
   ]
 }
