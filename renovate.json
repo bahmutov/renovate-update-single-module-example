@@ -28,8 +28,8 @@
       "enabled": true
     },
     {
-      "packagePatterns": ["^night"],
-      "enabled": false
+      "packagePatterns": ["*"],
+      "enabled": true
     }
   ]
 }
