@@ -26,6 +26,10 @@
     {
       "packagePatterns": ["^f", "^night"],
       "enabled": true
+    },
+    {
+      "packagePatterns": ["^night"],
+      "enabled": false
     }
   ]
 }
